@@ -1,0 +1,77 @@
+{
+    "kategoriler": [
+      {
+        "id": 1,
+        "ad": "Pizza",
+        "resim": "pizza_kategori_icon.jpg",
+        "urunler": [
+          {
+            "id": 101,
+            "ad": "Karışık Pizza",
+            "aciklama": "Dana jambon, mantar, zeytin, sucuk ile hazırlanmış karışık pizza",
+            "fiyat": 45.99,
+            "resim": "karisik_pizza.jpg",
+            "malzemeler": ["Dana jambon", "Mantar", "Zeytin", "Sucuk"],
+            "kategoriId": 1
+          },
+          {
+            "id": 102,
+            "ad": "Margherita Pizza",
+            "aciklama": "Klasik İtalyan pizzası, domates sosu, mozzarella peyniri",
+            "fiyat": 39.99,
+            "resim": "margherita_pizza.jpg",
+            "malzemeler": ["Domates sosu", "Mozzarella", "Fesleğen"],
+            "kategoriId": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "ad": "Hamburger",
+        "resim": "hamburger_kategori_icon.jpg",
+        "urunler": [
+          {
+            "id": 201,
+            "ad": "Klasik Hamburger",
+            "aciklama": "Dana eti, marul, domates, turşu ile hazırlanmış hamburger",
+            "fiyat": 35.50,
+            "resim": "klasik_hamburger.jpg",
+            "malzemeler": ["Dana eti", "Marul", "Domates", "Turşu", "Özel sos"],
+            "kategoriId": 2
+          },
+          {
+            "id": 202,
+            "ad": "Tavuk Burger",
+            "aciklama": "Çıtır tavuk, marul, özel sos ile hazırlanmış burger",
+            "fiyat": 32.99,
+            "resim": "tavuk_burger.jpg",
+            "malzemeler": ["Çıtır tavuk", "Marul", "Özel sos"],
+            "kategoriId": 2
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "ad": "İçecekler",
+        "resim": "icecek_kategori_icon.jpg",
+        "urunler": [
+          {
+            "id": 301,
+            "ad": "Kola",
+            "aciklama": "Soğuk içecek",
+            "fiyat": 7.99,
+            "resim": "kola.jpg",
+            "kategoriId": 3
+          },
+          {
+            "id": 302,
+            "ad": "Ayran",
+            "aciklama": "Taze yapılmış ayran",
+            "fiyat": 5.99,
+            "resim": "ayran.jpg",
+            "kategoriId": 3
+          }
+        ]
+      }
+    ]
+  }
