@@ -1,4 +1,4 @@
-package com.semantikteknoloji.yoremdonerapp
+package com.temiralp.ReactLayoutDeneme
 
 import android.app.Application
 import android.content.res.Configuration
